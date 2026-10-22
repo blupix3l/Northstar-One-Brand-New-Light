@@ -26,13 +26,13 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 try:
-    from experimental_search.search.models import SearchResult
-    from experimental_search.search.provider import SearchProvider
-    from experimental_search.search.manager import SearchManager, _LIVE_ORDER
-    from experimental_search.search.providers.ddgr import DDGRProvider
-    from experimental_search.search.providers.duckduckgo_lib import DuckDuckGoLibProvider
-    from experimental_search.search.providers.fd import FdProvider
-    from experimental_search.search.providers.ripgrep import RipGrepProvider
+    from legacy.experimental_search.search.models import SearchResult
+    from legacy.experimental_search.search.provider import SearchProvider
+    from legacy.experimental_search.search.manager import SearchManager, _LIVE_ORDER
+    from legacy.experimental_search.search.providers.ddgr import DDGRProvider
+    from legacy.experimental_search.search.providers.duckduckgo_lib import DuckDuckGoLibProvider
+    from legacy.experimental_search.search.providers.fd import FdProvider
+    from legacy.experimental_search.search.providers.ripgrep import RipGrepProvider
     _DEPS_OK = True
 except Exception:  # pragma: no cover - depends on optional requests
     _DEPS_OK = False

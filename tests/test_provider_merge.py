@@ -20,9 +20,9 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 try:
-    from experimental_search.search.models import SearchResult
-    from experimental_search.search.provider import SearchProvider
-    from experimental_search.search.manager import SearchManager
+    from legacy.experimental_search.search.models import SearchResult
+    from legacy.experimental_search.search.provider import SearchProvider
+    from legacy.experimental_search.search.manager import SearchManager
     _DEPS_OK = True
 
     class FakeProvider(SearchProvider):

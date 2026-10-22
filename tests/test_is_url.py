@@ -7,7 +7,7 @@ must be treated as searches, while real hosts/IPs navigate.
 import unittest
 
 try:
-    from experimental_search.northstar_search import _is_url
+    from legacy.experimental_search.northstar_search import _is_url
     _DEPS_OK = True
 except Exception:  # pragma: no cover - depends on optional requests/PyQt6
     _DEPS_OK = False

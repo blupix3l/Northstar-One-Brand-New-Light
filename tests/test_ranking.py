@@ -18,8 +18,8 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 try:
-    from experimental_search.search.models import SearchResult
-    from experimental_search.search.ranking import rank_results
+    from legacy.experimental_search.search.models import SearchResult
+    from legacy.experimental_search.search.ranking import rank_results
     _DEPS_OK = True
 except Exception:  # pragma: no cover - depends on optional requests/PyQt6
     _DEPS_OK = False

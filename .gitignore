@@ -38,7 +38,7 @@ NorthStar_v1.py.encbak*
 # Logs and runtime databases
 crash.log
 *.log
-experimental_search/nsindex/adaptive/visited.sqlite
+legacy/experimental_search/nsindex/adaptive/visited.sqlite
 *.sqlite-journal
 
 # Assets that may be replaced by the user

@@ -30,7 +30,8 @@ page, a sidebar-based tab list, and a built-in AI assistant.
   `http://localhost:11434`), **OpenAI**, or **Groq**. Keys are saved through
   the OS keyring.
 - **Password book** — master-password gate, search, lock/unlock and autofill,
-  with entries stored in the OS keyring.
+  with entries stored in the OS keyring. Open it from the 🔑 button in the
+  sidebar, or with `Ctrl+Shift+K`.
 - **Search engine selector** — Google, DuckDuckGo, Bing, Brave or Ecosia.
   The default is **Google**.
 - **Settings page** (`northstar://settings`) — search engine, toolbar mode
@@ -38,6 +39,21 @@ page, a sidebar-based tab list, and a built-in AI assistant.
   colours and typography.
 - **History, downloads, find-in-page, zoom, fullscreen, picture-in-picture**,
   a command palette, a notes page and an extensions page.
+
+### Sidebar
+
+The left sidebar holds the tab list. Its bottom button row opens:
+
+| Button | Opens | Shortcut |
+|---|---|---|
+| ✦ | Leo AI panel | `Ctrl+Shift+A` |
+| ⬇ | Downloads | `Ctrl+J` |
+| 📝 | Notes | - |
+| 🕐 | History | `Ctrl+H` |
+| 🔑 | Password Book | `Ctrl+Shift+K` |
+| ✦⇄ | StarShare | `Ctrl+Shift+S` |
+| ⚙ | Settings | `Ctrl+,` |
+| ⌘ | Command Palette | `Ctrl+P` |
 
 ### Not finished / misleading if you read the code at face value
 
@@ -49,10 +65,14 @@ page, a sidebar-based tab list, and a built-in AI assistant.
   runs and builds a `PageProfile` (title, description, markdown, hero image),
   but the completion callback only writes a log line — there is no preview UI
   wired up yet.
-- **`experimental_search/` is mostly dormant.** It contains a large
-  Opal-discovery / NSIndex subsystem that the browser does not currently
-  reach in normal use. The one part that *is* live is omnibox URL detection.
-  Treat the rest as a prototype, not a feature.
+- **`legacy/experimental_search/` is dead code.** The old Opal Discovery /
+  NSIndex search stack is unreachable from the browser UI: its only entry
+  point, `northstar://search?q=`, is itself only ever generated from inside
+  the Opal page, so it can never be reached from a cold start. It is kept in
+  `legacy/` for reference only — **do not treat it as a feature.** The single
+  exception is the omnibox URL heuristic (`_is_url` / `format_url`) in
+  `legacy/experimental_search/northstar_search.py`, which the address bar
+  still calls.
 - **NSIndex's crawler, indexer, BM25 and storage layers are never
   instantiated** by the browser, and `index_visited_page()` is never called,
   so the adaptive index stays empty.
@@ -104,8 +124,8 @@ Settings, bookmarks, history and the password book are stored in
 
 ## Environment Variables
 
-`.env` is read by `experimental_search/northstar_search.py` when that module
-is imported. Copy `.env.example` to `.env` to configure it.
+`.env` is read by `legacy/experimental_search/northstar_search.py` when that
+module is imported. Copy `.env.example` to `.env` to configure it.
 
 | Variable | Description |
 |----------|-------------|
@@ -154,7 +174,8 @@ ai_manager.py            Ollama / OpenAI / Groq providers
 bg_render.py             Background renderer
 extensions.py            Extension manager
 content/                 Content-enrichment pipeline (Firecrawl provider)
-experimental_search/     Experimental Opal discovery + NSIndex (mostly dormant)
+legacy/                 Dead code kept for reference - not part of the browser
+  experimental_search/   Old Opal Discovery + NSIndex search stack
 tests/                   Unit tests
 ```
 

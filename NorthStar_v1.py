@@ -2275,7 +2275,7 @@ def _build_cards_for_page(results: list, page: int, per_page: int, q_enc: str) -
 
 
 def _load_opal_query_types():
-    config_path = _asset(os.path.join("experimental_search", "opal_query_types.json"))
+    config_path = _asset(os.path.join("legacy", "experimental_search", "opal_query_types.json"))
     try:
         with open(config_path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -2346,11 +2346,11 @@ def _build_opal_html(
     cards_html = _build_cards_for_page(results, 0, 8, q_enc)
 
     # ── images ────────────────────────────────────────────────────────────────
-    from experimental_search.opal_html_v2 import _build_images
+    from legacy.experimental_search.opal_html_v2 import _build_images
     img_html = _build_images(images)
     
     # ── related videos ─────────────────────────────────────────────────────────
-    from experimental_search.opal_html_v2 import _build_videos
+    from legacy.experimental_search.opal_html_v2 import _build_videos
     vid_html = _build_videos(videos, query)
 
     # ── constellation ─────────────────────────────────────────────────────────
@@ -8811,6 +8811,7 @@ class NorthStar(QMainWindow):
             ("⬇", "Downloads (Ctrl+J)", self._toggle_downloads, "_dl_btn"),
             ("📝", "Notes", self._toggle_notes, "_notes_btn"),
             ("🕐", "History (Ctrl+H)", self._toggle_history, "_hist_btn"),
+            ("🔑", "Password Book (Ctrl+Shift+K)", self._toggle_password_book, "_pb_btn"),
             ("✦⇄", "StarShare™ (Ctrl+Shift+S)", self._toggle_starshare, "_ss_btn"),
             ("⚙", "Settings (Ctrl+,)", self._open_settings, "_set_btn"),
             ("⌘", "Command Palette (Ctrl+P)", self._show_palette, "_palette_btn"),
@@ -9892,13 +9893,13 @@ class NorthStar(QMainWindow):
     # ── LAZY INITIALIZERS ─────────────────────────────
     def _get_ns_search(self):
         if self._ns_search is None:
-            from experimental_search.northstar_search import NorthStarSearch
+            from legacy.experimental_search.northstar_search import NorthStarSearch
             self._ns_search = NorthStarSearch()
         return self._ns_search
 
     def _get_search_manager(self):
         if self._search_manager is None:
-            from experimental_search.search import SearchManager
+            from legacy.experimental_search.search import SearchManager
             self._search_manager = SearchManager()
         return self._search_manager
 
@@ -10037,7 +10038,7 @@ class NorthStar(QMainWindow):
         
         _log("UI", f"Received {len(images)} images for {query!r}. Generating HTML...")
         # Build the HTML fragment with the experimental Opal renderer.
-        from experimental_search.opal_html_v2 import _build_images
+        from legacy.experimental_search.opal_html_v2 import _build_images
         html_fragment = _build_images(images)
         _log("UI", f"Generated HTML length: {len(html_fragment)}")
         
@@ -10059,7 +10060,7 @@ class NorthStar(QMainWindow):
             return
         
         _log("UI", f"Received {len(videos)} videos for {query!r}. Generating HTML...")
-        from experimental_search.opal_html_v2 import _build_videos
+        from legacy.experimental_search.opal_html_v2 import _build_videos
         html_fragment = _build_videos(videos, query)
         _log("UI", f"Generated HTML length: {len(html_fragment)}")
         
@@ -10094,7 +10095,7 @@ class NorthStar(QMainWindow):
         
         def _on_images(q, images, _t=tab):
             if not _t or not hasattr(_t, 'view') or _t.view is None: return
-            from experimental_search.opal_html_v2 import _build_image_results_page
+            from legacy.experimental_search.opal_html_v2 import _build_image_results_page
             full_html = _build_image_results_page(q, images, dark_mode=dark)
             _t.view.setHtml(full_html, QUrl(f"opal://discovery/images?q={quote_plus(q)}"))
             self._opal_workers.discard(worker)

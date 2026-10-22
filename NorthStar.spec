@@ -2,20 +2,19 @@
 from PyInstaller.utils.hooks import collect_submodules
 
 hiddenimports = [
-    'experimental_search.northstar_runtime',
-    'experimental_search.northstar_search',
-    'experimental_search.opal_html_v2',
+    'legacy.experimental_search.northstar_runtime',
+    'legacy.experimental_search.northstar_search',
+    'legacy.experimental_search.opal_html_v2',
     'ai_manager',
     'fernway_manager',
-    'toolbar_tinter',
     'color_extractor',
     'bg_render',
     'dependency_manager',
     'oled_theme',
 ]
-hiddenimports += collect_submodules('experimental_search.search')
+hiddenimports += collect_submodules('legacy.experimental_search.search')
 hiddenimports += collect_submodules('content')
-hiddenimports += collect_submodules('experimental_search.nsindex')
+hiddenimports += collect_submodules('legacy.experimental_search.nsindex')
 
 
 a = Analysis(
@@ -24,7 +23,7 @@ a = Analysis(
     binaries=[],
     datas=[
         ('northstar.ico', '.'),
-        ('experimental_search/opal_query_types.json', 'experimental_search'),
+        ('legacy/experimental_search/opal_query_types.json', 'legacy/experimental_search'),
         ('quotes.json', '.'),
         ('assets', 'assets'),
     ],
