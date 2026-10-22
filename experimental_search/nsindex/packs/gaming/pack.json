@@ -1,0 +1,147 @@
+{
+    "name": "Gaming",
+    "description": "Gaming platforms, wikis, and communities",
+    "version": "1.0.0",
+    "sites": [
+        {
+            "title": "Steam",
+            "url": "https://store.steampowered.com",
+            "description": "PC gaming store and community",
+            "keywords": [
+                "steam",
+                "games",
+                "pc"
+            ]
+        },
+        {
+            "title": "Epic Games Store",
+            "url": "https://store.epicgames.com",
+            "description": "PC games store with free weekly games",
+            "keywords": [
+                "epic",
+                "games",
+                "free"
+            ]
+        },
+        {
+            "title": "GOG.com",
+            "url": "https://www.gog.com",
+            "description": "DRM-free game store",
+            "keywords": [
+                "gog",
+                "drm-free",
+                "games"
+            ]
+        },
+        {
+            "title": "Nexus Mods",
+            "url": "https://www.nexusmods.com",
+            "description": "Game modding community",
+            "keywords": [
+                "mods",
+                "modding",
+                "games"
+            ]
+        },
+        {
+            "title": "Fandom",
+            "url": "https://www.fandom.com",
+            "description": "Entertainment and gaming wikis",
+            "keywords": [
+                "wiki",
+                "fandom",
+                "games"
+            ]
+        },
+        {
+            "title": "Twitch",
+            "url": "https://www.twitch.tv",
+            "description": "Live streaming platform for gaming",
+            "keywords": [
+                "twitch",
+                "stream",
+                "live"
+            ]
+        },
+        {
+            "title": "YouTube Gaming",
+            "url": "https://gaming.youtube.com",
+            "description": "Gaming content and live streams",
+            "keywords": [
+                "youtube",
+                "gaming",
+                "videos"
+            ]
+        },
+        {
+            "title": "IGN",
+            "url": "https://www.ign.com",
+            "description": "Video game reviews, news, and guides",
+            "keywords": [
+                "ign",
+                "reviews",
+                "news"
+            ]
+        },
+        {
+            "title": "GameFAQs",
+            "url": "https://gamefaqs.gamespot.com",
+            "description": "Game guides, FAQs, and walkthroughs",
+            "keywords": [
+                "faqs",
+                "walkthroughs",
+                "guides"
+            ]
+        },
+        {
+            "title": "HowLongToBeat",
+            "url": "https://howlongtobeat.com",
+            "description": "Game completion time estimates",
+            "keywords": [
+                "time",
+                "length",
+                "complete"
+            ]
+        },
+        {
+            "title": "Metacritic",
+            "url": "https://www.metacritic.com",
+            "description": "Game and entertainment reviews aggregation",
+            "keywords": [
+                "reviews",
+                "metacritic",
+                "scores"
+            ]
+        },
+        {
+            "title": "PC Gamer",
+            "url": "https://www.pcgamer.com",
+            "description": "PC gaming news and reviews",
+            "keywords": [
+                "pc",
+                "gamer",
+                "news"
+            ]
+        },
+        {
+            "title": "Reddit r/gaming",
+            "url": "https://www.reddit.com/r/gaming",
+            "description": "Gaming community on Reddit",
+            "keywords": [
+                "reddit",
+                "gaming",
+                "community"
+            ]
+        },
+        {
+            "title": "Speedrun.com",
+            "url": "https://www.speedrun.com",
+            "description": "Speedrunning leaderboards and community",
+            "keywords": [
+                "speedrun",
+                "leaderboards",
+                "records"
+            ]
+        }
+    ]
+}

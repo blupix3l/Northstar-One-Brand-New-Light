@@ -1,0 +1,145 @@
+{
+    "name": "Encoding & Conversion",
+    "description": "Tools for encoding, decoding, and converting data formats",
+    "version": "1.0.0",
+    "sites": [
+        {
+            "title": "Base64 Encode",
+            "url": "https://www.base64encode.org",
+            "description": "Encode and decode Base64 text instantly",
+            "keywords": [
+                "base64",
+                "encode",
+                "decode"
+            ]
+        },
+        {
+            "title": "Base64 Decode",
+            "url": "https://www.base64decode.org",
+            "description": "Decode Base64 data to plain text",
+            "keywords": [
+                "base64",
+                "decode"
+            ]
+        },
+        {
+            "title": "URL Encode/Decode",
+            "url": "https://www.urlencoder.org",
+            "description": "Encode and decode URL strings",
+            "keywords": [
+                "url",
+                "encode",
+                "decode"
+            ]
+        },
+        {
+            "title": "JSON Formatter",
+            "url": "https://jsonformatter.org",
+            "description": "Format and validate JSON data",
+            "keywords": [
+                "json",
+                "format",
+                "validate"
+            ]
+        },
+        {
+            "title": "JSON Viewer",
+            "url": "https://jsonviewer.stack.hu",
+            "description": "View JSON data in tree structure",
+            "keywords": [
+                "json",
+                "viewer"
+            ]
+        },
+        {
+            "title": "Hex to Decimal",
+            "url": "https://www.rapidtables.com/convert/number/hex-to-decimal.html",
+            "description": "Convert hexadecimal to decimal numbers",
+            "keywords": [
+                "hex",
+                "decimal",
+                "convert"
+            ]
+        },
+        {
+            "title": "Binary to Decimal",
+            "url": "https://www.rapidtables.com/convert/number/binary-to-decimal.html",
+            "description": "Convert binary to decimal numbers",
+            "keywords": [
+                "binary",
+                "decimal",
+                "convert"
+            ]
+        },
+        {
+            "title": "UTF-8 Encoder",
+            "url": "https://mothereff.in/utf-8",
+            "description": "UTF-8 encoding and decoding",
+            "keywords": [
+                "utf-8",
+                "unicode",
+                "encode"
+            ]
+        },
+        {
+            "title": "MD5 Hash Generator",
+            "url": "https://www.md5hashgenerator.com",
+            "description": "Generate MD5 hashes for strings",
+            "keywords": [
+                "md5",
+                "hash",
+                "generator"
+            ]
+        },
+        {
+            "title": "SHA-256 Hash",
+            "url": "https://emn178.github.io/online-tools/sha256.html",
+            "description": "Generate SHA-256 hashes",
+            "keywords": [
+                "sha-256",
+                "hash",
+                "security"
+            ]
+        },
+        {
+            "title": "YAML to JSON",
+            "url": "https://www.json2yaml.com",
+            "description": "Convert YAML to JSON and vice versa",
+            "keywords": [
+                "yaml",
+                "json",
+                "convert"
+            ]
+        },
+        {
+            "title": "CSV to JSON",
+            "url": "https://csvjson.com/csv2json",
+            "description": "Convert CSV files to JSON format",
+            "keywords": [
+                "csv",
+                "json",
+                "convert"
+            ]
+        },
+        {
+            "title": "Image to Base64",
+            "url": "https://www.base64-image.de",
+            "description": "Convert images to Base64 strings",
+            "keywords": [
+                "image",
+                "base64",
+                "convert"
+            ]
+        },
+        {
+            "title": "QR Code Generator",
+            "url": "https://www.qr-code-generator.com",
+            "description": "Generate QR codes for any data",
+            "keywords": [
+                "qr",
+                "code",
+                "generator"
+            ]
+        }
+    ]
+}

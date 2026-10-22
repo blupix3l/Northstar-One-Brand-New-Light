@@ -1,0 +1,147 @@
+{
+    "name": "Education & Learning",
+    "description": "Courses, tutorials, and learning platforms",
+    "version": "1.0.0",
+    "sites": [
+        {
+            "title": "Coursera",
+            "url": "https://www.coursera.org",
+            "description": "Online courses from top universities",
+            "keywords": [
+                "coursera",
+                "courses",
+                "university"
+            ]
+        },
+        {
+            "title": "edX",
+            "url": "https://www.edx.org",
+            "description": "Free online courses from MIT, Harvard, etc.",
+            "keywords": [
+                "edx",
+                "free",
+                "courses"
+            ]
+        },
+        {
+            "title": "Khan Academy",
+            "url": "https://www.khanacademy.org",
+            "description": "Free, world-class education for anyone",
+            "keywords": [
+                "khan",
+                "free",
+                "education"
+            ]
+        },
+        {
+            "title": "Udemy",
+            "url": "https://www.udemy.com",
+            "description": "Online courses on various topics",
+            "keywords": [
+                "udemy",
+                "courses",
+                "learn"
+            ]
+        },
+        {
+            "title": "Codecademy",
+            "url": "https://www.codecademy.com",
+            "description": "Learn to code interactively",
+            "keywords": [
+                "codecademy",
+                "code",
+                "learn"
+            ]
+        },
+        {
+            "title": "FreeCodeCamp",
+            "url": "https://www.freecodecamp.org",
+            "description": "Learn to code for free with certifications",
+            "keywords": [
+                "freecodecamp",
+                "free",
+                "certification"
+            ]
+        },
+        {
+            "title": "MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu",
+            "description": "MIT's course materials online",
+            "keywords": [
+                "mit",
+                "ocw",
+                "courses"
+            ]
+        },
+        {
+            "title": "Stanford Online",
+            "url": "https://online.stanford.edu",
+            "description": "Stanford's online courses and programs",
+            "keywords": [
+                "stanford",
+                "online",
+                "courses"
+            ]
+        },
+        {
+            "title": "Duolingo",
+            "url": "https://www.duolingo.com",
+            "description": "Learn languages for free",
+            "keywords": [
+                "duolingo",
+                "language",
+                "learn"
+            ]
+        },
+        {
+            "title": "Quizlet",
+            "url": "https://quizlet.com",
+            "description": "Flashcards and study tools",
+            "keywords": [
+                "quizlet",
+                "flashcards",
+                "study"
+            ]
+        },
+        {
+            "title": "Wolfram Alpha",
+            "url": "https://www.wolframalpha.com",
+            "description": "Computational knowledge engine",
+            "keywords": [
+                "wolfram",
+                "alpha",
+                "math"
+            ]
+        },
+        {
+            "title": "Wikipedia",
+            "url": "https://www.wikipedia.org",
+            "description": "Free online encyclopedia",
+            "keywords": [
+                "wikipedia",
+                "encyclopedia",
+                "free"
+            ]
+        },
+        {
+            "title": "Brilliant",
+            "url": "https://brilliant.org",
+            "description": "Interactive lessons in math, science, and more",
+            "keywords": [
+                "brilliant",
+                "interactive",
+                "math"
+            ]
+        },
+        {
+            "title": "Pluralsight",
+            "url": "https://www.pluralsight.com",
+            "description": "Tech learning platform",
+            "keywords": [
+                "pluralsight",
+                "tech",
+                "courses"
+            ]
+        }
+    ]
+}

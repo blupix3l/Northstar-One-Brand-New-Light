@@ -1,0 +1,1326 @@
+{
+    "name": "Productivity & Tools",
+    "description": "Essential tools and utilities for everyday life",
+    "version": "2.0.0",
+    "sites": [
+        {
+            "title": "Notion",
+            "url": "https://www.notion.so",
+            "description": "Your workspace. Your way.",
+            "keywords": [
+                "notion",
+                "notes",
+                "workspace",
+                "productivity",
+                "knowledge base"
+            ],
+            "category": "tools",
+            "priority": 96,
+            "official": true,
+            "related": [
+                "obsidian",
+                "todoist",
+                "slack"
+            ]
+        },
+        {
+            "title": "Obsidian",
+            "url": "https://obsidian.md",
+            "description": "A second brain, for you, forever.",
+            "keywords": [
+                "obsidian",
+                "notes",
+                "markdown",
+                "personal wiki",
+                "second brain"
+            ],
+            "category": "tools",
+            "priority": 94,
+            "official": true,
+            "related": [
+                "notion",
+                "logseq",
+                "github"
+            ]
+        },
+        {
+            "title": "Todoist",
+            "url": "https://todoist.com",
+            "description": "The world's favorite task manager",
+            "keywords": [
+                "todoist",
+                "task manager",
+                "productivity",
+                "to-do list",
+                "gtd"
+            ],
+            "category": "tools",
+            "priority": 93,
+            "official": true,
+            "related": [
+                "notion",
+                "trello",
+                "asana"
+            ]
+        },
+        {
+            "title": "Trello",
+            "url": "https://trello.com",
+            "description": "Infinitely flexible. Incredibly easy to use.",
+            "keywords": [
+                "trello",
+                "kanban",
+                "project management",
+                "boards",
+                "cards"
+            ],
+            "category": "tools",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "notion",
+                "jira",
+                "asana"
+            ]
+        },
+        {
+            "title": "Asana",
+            "url": "https://asana.com",
+            "description": "Work management designed for teams",
+            "keywords": [
+                "asana",
+                "project management",
+                "teamwork",
+                "tasks"
+            ],
+            "category": "tools",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "trello",
+                "jira",
+                "slack"
+            ]
+        },
+        {
+            "title": "Slack",
+            "url": "https://slack.com",
+            "description": "Where work happens",
+            "keywords": [
+                "slack",
+                "chat",
+                "communication",
+                "teamwork",
+                "messaging"
+            ],
+            "category": "tools",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "discord",
+                "microsoft teams",
+                "asana"
+            ]
+        },
+        {
+            "title": "Discord",
+            "url": "https://discord.com",
+            "description": "Your place to talk",
+            "keywords": [
+                "discord",
+                "chat",
+                "voice",
+                "community",
+                "server"
+            ],
+            "category": "tools",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "slack",
+                "telegram",
+                "midjourney"
+            ]
+        },
+        {
+            "title": "Telegram",
+            "url": "https://telegram.org",
+            "description": "A new era of messaging",
+            "keywords": [
+                "telegram",
+                "messaging",
+                "chat",
+                "secure",
+                "encrypted"
+            ],
+            "category": "tools",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "discord",
+                "signal",
+                "whatsapp"
+            ]
+        },
+        {
+            "title": "Signal",
+            "url": "https://signal.org",
+            "description": "Say hello to privacy",
+            "keywords": [
+                "signal",
+                "signal app",
+                "privacy",
+                "encrypted messaging",
+                "secure"
+            ],
+            "category": "tools",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "telegram",
+                "whatsapp",
+                "privacy"
+            ]
+        },
+        {
+            "title": "WhatsApp",
+            "url": "https://www.whatsapp.com",
+            "description": "Simple, reliable, private messaging",
+            "keywords": [
+                "whatsapp",
+                "messaging",
+                "chat",
+                "meta",
+                "private"
+            ],
+            "category": "tools",
+            "priority": 94,
+            "official": true,
+            "related": [
+                "telegram",
+                "signal",
+                "facebook"
+            ]
+        },
+        {
+            "title": "Microsoft Teams",
+            "url": "https://teams.microsoft.com",
+            "description": "Microsoft Teams for work",
+            "keywords": [
+                "teams",
+                "microsoft teams",
+                "chat",
+                "meetings",
+                "collaboration"
+            ],
+            "category": "tools",
+            "priority": 91,
+            "official": true,
+            "related": [
+                "slack",
+                "outlook",
+                "onedrive"
+            ]
+        },
+        {
+            "title": "Google Workspace",
+            "url": "https://workspace.google.com",
+            "description": "Business apps for collaboration and productivity",
+            "keywords": [
+                "google workspace",
+                "g suite",
+                "gmail",
+                "docs",
+                "sheets",
+                "drive"
+            ],
+            "category": "tools",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "microsoft 365",
+                "gmail",
+                "google drive"
+            ]
+        },
+        {
+            "title": "Microsoft 365",
+            "url": "https://www.microsoft.com/en-us/microsoft-365",
+            "description": "The best productivity tools",
+            "keywords": [
+                "microsoft 365",
+                "office 365",
+                "word",
+                "excel",
+                "powerpoint"
+            ],
+            "category": "tools",
+            "priority": 94,
+            "official": true,
+            "related": [
+                "google workspace",
+                "teams",
+                "onedrive"
+            ]
+        },
+        {
+            "title": "Gmail",
+            "url": "https://mail.google.com",
+            "description": "Google's email service",
+            "keywords": [
+                "gmail",
+                "email",
+                "mail",
+                "google"
+            ],
+            "category": "tools",
+            "priority": 97,
+            "official": true,
+            "related": [
+                "google drive",
+                "outlook",
+                "google workspace"
+            ]
+        },
+        {
+            "title": "Outlook",
+            "url": "https://outlook.office.com",
+            "description": "Microsoft's email service",
+            "keywords": [
+                "outlook",
+                "email",
+                "mail",
+                "microsoft"
+            ],
+            "category": "tools",
+            "priority": 93,
+            "official": true,
+            "related": [
+                "gmail",
+                "teams",
+                "microsoft 365"
+            ]
+        },
+        {
+            "title": "Google Drive",
+            "url": "https://drive.google.com",
+            "description": "Cloud storage and file sharing",
+            "keywords": [
+                "google drive",
+                "drive",
+                "cloud storage",
+                "files",
+                "google"
+            ],
+            "category": "tools",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "gmail",
+                "google docs",
+                "dropbox"
+            ]
+        },
+        {
+            "title": "Dropbox",
+            "url": "https://www.dropbox.com",
+            "description": "The modern workspace designed to reduce busywork",
+            "keywords": [
+                "dropbox",
+                "cloud storage",
+                "files",
+                "file sync"
+            ],
+            "category": "tools",
+            "priority": 91,
+            "official": true,
+            "related": [
+                "google drive",
+                "onedrive",
+                "mega"
+            ]
+        },
+        {
+            "title": "OneDrive",
+            "url": "https://onedrive.live.com",
+            "description": "Microsoft cloud storage",
+            "keywords": [
+                "onedrive",
+                "microsoft",
+                "cloud storage",
+                "files"
+            ],
+            "category": "tools",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "dropbox",
+                "google drive",
+                "microsoft 365"
+            ]
+        },
+        {
+            "title": "MEGA",
+            "url": "https://mega.nz",
+            "description": "Privacy-focused cloud storage",
+            "keywords": [
+                "mega.nz",
+                "mega",
+                "cloud storage",
+                "privacy",
+                "encrypted"
+            ],
+            "category": "tools",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "dropbox",
+                "google drive",
+                "privacy"
+            ]
+        },
+        {
+            "title": "1Password",
+            "url": "https://1password.com",
+            "description": "The password manager you'll love using",
+            "keywords": [
+                "1password",
+                "password manager",
+                "security",
+                "vault"
+            ],
+            "category": "tools",
+            "priority": 93,
+            "official": true,
+            "related": [
+                "bitwarden",
+                "keepassxc",
+                "security"
+            ]
+        },
+        {
+            "title": "Bitwarden",
+            "url": "https://bitwarden.com",
+            "description": "Open source password manager for teams and individuals",
+            "keywords": [
+                "bitwarden",
+                "password manager",
+                "open source",
+                "security",
+                "vault"
+            ],
+            "category": "tools",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "1password",
+                "keepassxc",
+                "security"
+            ]
+        },
+        {
+            "title": "KeePassXC",
+            "url": "https://keepassxc.org",
+            "description": "Cross-platform community-driven port of KeePass",
+            "keywords": [
+                "keepassxc",
+                "keepass",
+                "password manager",
+                "open source",
+                "local"
+            ],
+            "category": "tools",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "bitwarden",
+                "1password",
+                "security"
+            ]
+        },
+        {
+            "title": "Grammarly",
+            "url": "https://www.grammarly.com",
+            "description": "Great writing, simplified",
+            "keywords": [
+                "grammarly",
+                "grammar",
+                "writing",
+                "spell check",
+                "ai"
+            ],
+            "category": "tools",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "notion",
+                "gmail",
+                "docs"
+            ]
+        },
+        {
+            "title": "Google Calendar",
+            "url": "https://calendar.google.com",
+            "description": "Google's calendar service",
+            "keywords": [
+                "google calendar",
+                "calendar",
+                "schedule",
+                "events"
+            ],
+            "category": "tools",
+            "priority": 94,
+            "official": true,
+            "related": [
+                "gmail",
+                "outlook calendar",
+                "todoist"
+            ]
+        },
+        {
+            "title": "Fantastical",
+            "url": "https://flexibits.com/fantastical",
+            "description": "Calendar & Tasks for Apple devices",
+            "keywords": [
+                "fantastical",
+                "calendar",
+                "mac",
+                "ios",
+                "schedule"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "google calendar",
+                "apple calendar",
+                "todoist"
+            ]
+        },
+        {
+            "title": "Zoom",
+            "url": "https://zoom.us",
+            "description": "Video conferencing, web conferencing, webinars",
+            "keywords": [
+                "zoom",
+                "video call",
+                "meeting",
+                "webinar"
+            ],
+            "category": "tools",
+            "priority": 93,
+            "official": true,
+            "related": [
+                "teams",
+                "google meet",
+                "slack"
+            ]
+        },
+        {
+            "title": "Google Meet",
+            "url": "https://meet.google.com",
+            "description": "Real-time meetings by Google",
+            "keywords": [
+                "google meet",
+                "meet",
+                "video call",
+                "meeting"
+            ],
+            "category": "tools",
+            "priority": 91,
+            "official": true,
+            "related": [
+                "zoom",
+                "teams",
+                "google workspace"
+            ]
+        },
+        {
+            "title": "Skype",
+            "url": "https://www.skype.com",
+            "description": "Stay connected with free video calls worldwide",
+            "keywords": [
+                "skype",
+                "video call",
+                "call",
+                "chat",
+                "microsoft"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "zoom",
+                "teams",
+                "whatsapp"
+            ]
+        },
+        {
+            "title": "Evernote",
+            "url": "https://evernote.com",
+            "description": "Remember everything",
+            "keywords": [
+                "evernote",
+                "notes",
+                "productivity",
+                "organization"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "notion",
+                "obsidian",
+                "todoist"
+            ]
+        },
+        {
+            "title": "Logseq",
+            "url": "https://logseq.com",
+            "description": "A privacy-first, open-source platform for knowledge management and collaboration",
+            "keywords": [
+                "logseq",
+                "notes",
+                "markdown",
+                "outliner",
+                "knowledge base"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "obsidian",
+                "notion",
+                "github"
+            ]
+        },
+        {
+            "title": "Roam Research",
+            "url": "https://roamresearch.com",
+            "description": "A note-taking tool for networked thought",
+            "keywords": [
+                "roam",
+                "roam research",
+                "notes",
+                "networked thought",
+                "knowledge base"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "obsidian",
+                "logseq",
+                "notion"
+            ]
+        },
+        {
+            "title": "Notion AI",
+            "url": "https://www.notion.so/ai",
+            "description": "AI that thinks like you",
+            "keywords": [
+                "notion ai",
+                "ai",
+                "notion",
+                "productivity",
+                "writing"
+            ],
+            "category": "tools",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "notion",
+                "chatgpt",
+                "grammarly"
+            ]
+        },
+        {
+            "title": "Canva",
+            "url": "https://www.canva.com",
+            "description": "Design anything, publish anywhere",
+            "keywords": [
+                "canva",
+                "design",
+                "graphics",
+                "templates",
+                "presentation"
+            ],
+            "category": "tools",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "figma",
+                "photopea",
+                "design"
+            ]
+        },
+        {
+            "title": "Photopea",
+            "url": "https://www.photopea.com",
+            "description": "Online image editor (like Photoshop)",
+            "keywords": [
+                "photopea",
+                "image editor",
+                "photo editor",
+                "online",
+                "photoshop"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "canva",
+                "gimp",
+                "photoshop"
+            ]
+        },
+        {
+            "title": "GIMP",
+            "url": "https://www.gimp.org",
+            "description": "GNU Image Manipulation Program",
+            "keywords": [
+                "gimp",
+                "image editor",
+                "open source",
+                "photo editor"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "photopea",
+                "inkscape",
+                "blender"
+            ]
+        },
+        {
+            "title": "Inkscape",
+            "url": "https://inkscape.org",
+            "description": "Open source vector graphics editor",
+            "keywords": [
+                "inkscape",
+                "vector graphics",
+                "open source",
+                "svg"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "gimp",
+                "blender",
+                "canva"
+            ]
+        },
+        {
+            "title": "Blender",
+            "url": "https://www.blender.org",
+            "description": "Free and open source 3D creation suite",
+            "keywords": [
+                "blender",
+                "3d",
+                "animation",
+                "open source",
+                "modeling"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "inkscape",
+                "gimp",
+                "figma"
+            ]
+        },
+        {
+            "title": "TinyPNG",
+            "url": "https://tinypng.com",
+            "description": "Smart PNG and JPEG compression",
+            "keywords": [
+                "tinypng",
+                "image compression",
+                "png",
+                "jpeg",
+                "optimize"
+            ],
+            "category": "tools",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "photopea",
+                "gimp",
+                "cloudinary"
+            ]
+        },
+        {
+            "title": "Cloudinary",
+            "url": "https://cloudinary.com",
+            "description": "Media management platform",
+            "keywords": [
+                "cloudinary",
+                "images",
+                "videos",
+                "media management",
+                "cdn"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "tinypng",
+                "imgur",
+                "vimeo"
+            ]
+        },
+        {
+            "title": "Imgur",
+            "url": "https://imgur.com",
+            "description": "The magic of the Internet in image form",
+            "keywords": [
+                "imgur",
+                "images",
+                "hosting",
+                "photo sharing",
+                "upload"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "cloudinary",
+                "reddit",
+                "twitter"
+            ]
+        },
+        {
+            "title": "Figma",
+            "url": "https://www.figma.com",
+            "description": "The collaborative interface design tool",
+            "keywords": [
+                "figma",
+                "design",
+                "ui",
+                "ux",
+                "prototyping"
+            ],
+            "category": "tools",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "canva",
+                "photopea",
+                "adobe xd"
+            ]
+        },
+        {
+            "title": "Adobe Express",
+            "url": "https://express.adobe.com",
+            "description": "Create standout content in minutes",
+            "keywords": [
+                "adobe express",
+                "design",
+                "graphics",
+                "templates",
+                "adobe"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "canva",
+                "figma",
+                "photoshop"
+            ]
+        },
+        {
+            "title": "Wolfram Alpha",
+            "url": "https://www.wolframalpha.com",
+            "description": "Compute answers using Wolfram's breakthrough technology",
+            "keywords": [
+                "wolfram alpha",
+                "wolfram",
+                "calculator",
+                "math",
+                "knowledge engine"
+            ],
+            "category": "tools",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "math",
+                "wikipedia",
+                "science"
+            ]
+        },
+        {
+            "title": "Symbolab",
+            "url": "https://www.symbolab.com",
+            "description": "Step by step calculator",
+            "keywords": [
+                "symbolab",
+                "math",
+                "calculator",
+                "step by step",
+                "algebra"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "wolfram alpha",
+                "mathway",
+                "education"
+            ]
+        },
+        {
+            "title": "Mathway",
+            "url": "https://www.mathway.com",
+            "description": "Free math problem solver",
+            "keywords": [
+                "mathway",
+                "math",
+                "calculator",
+                "problem solver"
+            ],
+            "category": "tools",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "symbolab",
+                "wolfram alpha",
+                "education"
+            ]
+        },
+        {
+            "title": "Google Translate",
+            "url": "https://translate.google.com",
+            "description": "Google's translation service",
+            "keywords": [
+                "google translate",
+                "translate",
+                "translation",
+                "language",
+                "google"
+            ],
+            "category": "tools",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "deepl",
+                "google",
+                "bing translate"
+            ]
+        },
+        {
+            "title": "DeepL Translate",
+            "url": "https://www.deepl.com",
+            "description": "The world's most accurate translator",
+            "keywords": [
+                "deepl",
+                "translate",
+                "translation",
+                "language",
+                "ai"
+            ],
+            "category": "tools",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "google translate",
+                "chatgpt",
+                "ai"
+            ]
+        },
+        {
+            "title": "ShortcutFoo",
+            "url": "https://shortcutfoo.com",
+            "description": "Learn keyboard shortcuts faster",
+            "keywords": [
+                "shortcutfoo",
+                "keyboard shortcuts",
+                "productivity",
+                "learn"
+            ],
+            "category": "tools",
+            "priority": 80,
+            "official": true,
+            "related": [
+                "vscode",
+                "photoshop",
+                "productivity"
+            ]
+        },
+        {
+            "title": "IFTTT",
+            "url": "https://ifttt.com",
+            "description": "Do more with the services you love",
+            "keywords": [
+                "ifttt",
+                "automation",
+                "zapier",
+                "workflow",
+                "recipes"
+            ],
+            "category": "tools",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "zapier",
+                "make.com",
+                "n8n"
+            ]
+        },
+        {
+            "title": "Zapier",
+            "url": "https://zapier.com",
+            "description": "Connect your apps and automate workflows",
+            "keywords": [
+                "zapier",
+                "automation",
+                "workflow",
+                "no code",
+                "integration"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "ifttt",
+                "make.com",
+                "n8n"
+            ]
+        },
+        {
+            "title": "Make.com",
+            "url": "https://www.make.com",
+            "description": "Visual automation for 1000+ apps",
+            "keywords": [
+                "make.com",
+                "make",
+                "automation",
+                "workflow",
+                "integromat"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "zapier",
+                "ifttt",
+                "n8n"
+            ]
+        },
+        {
+            "title": "n8n",
+            "url": "https://n8n.io",
+            "description": "Free and open fair-code workflow automation tool",
+            "keywords": [
+                "n8n",
+                "automation",
+                "workflow",
+                "open source",
+                "self-hosted"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "zapier",
+                "make.com",
+                "ifttt"
+            ]
+        },
+        {
+            "title": "Alfred",
+            "url": "https://www.alfredapp.com",
+            "description": "Application launcher and productivity tool for macOS",
+            "keywords": [
+                "alfred",
+                "macos",
+                "launcher",
+                "productivity"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "raycast",
+                "mac",
+                "spotlight"
+            ]
+        },
+        {
+            "title": "Raycast",
+            "url": "https://www.raycast.com",
+            "description": "Control your tools with a few keystrokes",
+            "keywords": [
+                "raycast",
+                "launcher",
+                "productivity",
+                "macos",
+                "extensions"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "alfred",
+                "mac",
+                "github"
+            ]
+        },
+        {
+            "title": "Listary",
+            "url": "https://www.listary.com",
+            "description": "File search and productivity tool for Windows",
+            "keywords": [
+                "listary",
+                "windows",
+                "search",
+                "file search",
+                "productivity"
+            ],
+            "category": "tools",
+            "priority": 82,
+            "official": true,
+            "related": [
+                "everything",
+                "windows",
+                "file explorer"
+            ]
+        },
+        {
+            "title": "Everything",
+            "url": "https://www.voidtools.com",
+            "description": "Locate files and folders by name instantly on Windows",
+            "keywords": [
+                "everything",
+                "voidtools",
+                "windows",
+                "file search",
+                "fast"
+            ],
+            "category": "tools",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "listary",
+                "windows",
+                "search"
+            ]
+        },
+        {
+            "title": "OBS Studio",
+            "url": "https://obsproject.com",
+            "description": "Free and open source software for video recording and live streaming",
+            "keywords": [
+                "obs",
+                "obs studio",
+                "streaming",
+                "recording",
+                "screen record"
+            ],
+            "category": "tools",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "twitch",
+                "youtube",
+                "gaming"
+            ]
+        },
+        {
+            "title": "ShareX",
+            "url": "https://getsharex.com",
+            "description": "Screen capture, file sharing and productivity tool",
+            "keywords": [
+                "sharex",
+                "screenshot",
+                "screen capture",
+                "screen recording",
+                "windows"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "obs",
+                "snagit",
+                "imgur"
+            ]
+        },
+        {
+            "title": "Snagit",
+            "url": "https://www.techsmith.com/snagit.html",
+            "description": "Screen capture software",
+            "keywords": [
+                "snagit",
+                "screenshot",
+                "screen capture",
+                "techsmith"
+            ],
+            "category": "tools",
+            "priority": 83,
+            "official": true,
+            "related": [
+                "sharex",
+                "obs",
+                "canva"
+            ]
+        },
+        {
+            "title": "CleanShot X",
+            "url": "https://cleanshot.com",
+            "description": "The ultimate screen capture tool for macOS",
+            "keywords": [
+                "cleanshot x",
+                "cleanshot",
+                "screenshot",
+                "mac",
+                "screen capture"
+            ],
+            "category": "tools",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "sharex",
+                "snagit",
+                "mac"
+            ]
+        },
+        {
+            "title": "VLC Media Player",
+            "url": "https://www.videolan.org/vlc/",
+            "description": "Free and open source cross-platform multimedia player",
+            "keywords": [
+                "vlc",
+                "media player",
+                "video player",
+                "open source"
+            ],
+            "category": "tools",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "mpv",
+                "youtube",
+                "plex"
+            ]
+        },
+        {
+            "title": "MPV",
+            "url": "https://mpv.io",
+            "description": "A free, open source, and cross-platform media player",
+            "keywords": [
+                "mpv",
+                "media player",
+                "video player",
+                "open source"
+            ],
+            "category": "tools",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "vlc",
+                "plex",
+                "jellyfin"
+            ]
+        },
+        {
+            "title": "HandBrake",
+            "url": "https://handbrake.fr",
+            "description": "The open source video transcoder",
+            "keywords": [
+                "handbrake",
+                "video transcoder",
+                "convert video",
+                "open source"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "vlc",
+                "ffmpeg",
+                "tools"
+            ]
+        },
+        {
+            "title": "FFmpeg",
+            "url": "https://ffmpeg.org",
+            "description": "A complete, cross-platform solution to record, convert and stream audio and video",
+            "keywords": [
+                "ffmpeg",
+                "video",
+                "audio",
+                "convert",
+                "transcode"
+            ],
+            "category": "tools",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "handbrake",
+                "vlc",
+                "tools"
+            ]
+        },
+        {
+            "title": "Notepad++",
+            "url": "https://notepad-plus-plus.org",
+            "description": "Free source code editor and Notepad replacement",
+            "keywords": [
+                "notepad++",
+                "notepad plus plus",
+                "text editor",
+                "windows"
+            ],
+            "category": "tools",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "vscode",
+                "sublime text",
+                "windows"
+            ]
+        },
+        {
+            "title": "Sublime Text",
+            "url": "https://www.sublimetext.com",
+            "description": "A sophisticated text editor for code, markup and prose",
+            "keywords": [
+                "sublime text",
+                "text editor",
+                "code editor",
+                "sublime"
+            ],
+            "category": "tools",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "vscode",
+                "atom",
+                "notepad++"
+            ]
+        },
+        {
+            "title": "Visual Studio Code",
+            "url": "https://code.visualstudio.com",
+            "description": "Code editing. Redefined.",
+            "keywords": [
+                "vscode",
+                "visual studio code",
+                "code editor",
+                "ide"
+            ],
+            "category": "tools",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "notepad++",
+                "sublime text",
+                "github"
+            ]
+        }
+    ]
+}

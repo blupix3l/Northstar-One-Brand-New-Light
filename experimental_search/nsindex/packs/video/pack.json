@@ -1,0 +1,147 @@
+{
+    "name": "Video & Streaming",
+    "description": "Video platforms, editing, and streaming tools",
+    "version": "1.0.0",
+    "sites": [
+        {
+            "title": "YouTube",
+            "url": "https://www.youtube.com",
+            "description": "World's largest video platform",
+            "keywords": [
+                "youtube",
+                "videos",
+                "watch"
+            ]
+        },
+        {
+            "title": "Vimeo",
+            "url": "https://vimeo.com",
+            "description": "High-quality video hosting",
+            "keywords": [
+                "vimeo",
+                "videos",
+                "hosting"
+            ]
+        },
+        {
+            "title": "Twitch",
+            "url": "https://www.twitch.tv",
+            "description": "Live streaming platform",
+            "keywords": [
+                "twitch",
+                "stream",
+                "live"
+            ]
+        },
+        {
+            "title": "Netflix",
+            "url": "https://www.netflix.com",
+            "description": "Streaming service for movies and TV",
+            "keywords": [
+                "netflix",
+                "streaming",
+                "movies"
+            ]
+        },
+        {
+            "title": "YouTube Studio",
+            "url": "https://studio.youtube.com",
+            "description": "Manage your YouTube channel",
+            "keywords": [
+                "youtube",
+                "studio",
+                "channel"
+            ]
+        },
+        {
+            "title": "DaVinci Resolve",
+            "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+            "description": "Professional video editing software",
+            "keywords": [
+                "davinci",
+                "resolve",
+                "editing"
+            ]
+        },
+        {
+            "title": "CapCut",
+            "url": "https://www.capcut.com",
+            "description": "Free video editor and maker",
+            "keywords": [
+                "capcut",
+                "editor",
+                "video"
+            ]
+        },
+        {
+            "title": "OBS Studio",
+            "url": "https://obsproject.com",
+            "description": "Free and open-source streaming software",
+            "keywords": [
+                "obs",
+                "streaming",
+                "software"
+            ]
+        },
+        {
+            "title": "Pexels Videos",
+            "url": "https://www.pexels.com/videos",
+            "description": "Free stock videos",
+            "keywords": [
+                "stock",
+                "videos",
+                "free"
+            ]
+        },
+        {
+            "title": "Unsplash",
+            "url": "https://unsplash.com",
+            "description": "Free high-resolution photos",
+            "keywords": [
+                "photos",
+                "free",
+                "stock"
+            ]
+        },
+        {
+            "title": "TikTok",
+            "url": "https://www.tiktok.com",
+            "description": "Short-form mobile videos",
+            "keywords": [
+                "tiktok",
+                "short",
+                "videos"
+            ]
+        },
+        {
+            "title": "HBO Max",
+            "url": "https://www.max.com",
+            "description": "Streaming service for HBO content",
+            "keywords": [
+                "hbo",
+                "max",
+                "streaming"
+            ]
+        },
+        {
+            "title": "Disney+",
+            "url": "https://www.disneyplus.com",
+            "description": "Disney, Pixar, Marvel, Star Wars, National Geographic",
+            "keywords": [
+                "disney",
+                "plus",
+                "streaming"
+            ]
+        },
+        {
+            "title": "HandBrake",
+            "url": "https://handbrake.fr",
+            "description": "Free video transcoder",
+            "keywords": [
+                "handbrake",
+                "transcoder",
+                "convert"
+            ]
+        }
+    ]
+}

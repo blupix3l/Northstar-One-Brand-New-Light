@@ -1,0 +1,52 @@
+# ── Python ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Environments ───────────────────────────────
+.env
+*.env.*
+!.env.example
+venv/
+.venv/
+env/
+
+# ── IDE / Editor ───────────────────────────────
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── NorthStar specific ─────────────────────────
+# Backup files created during development
+NorthStar_v1.py.bak
+NorthStar_v1.py.encbak*
+
+# Runtime data (user-specific, generated at runtime)
+# northstar_bookmarks.json, northstar_favicons.json, etc. are
+# stored in %APPDATA%/NorthStar/ so they're excluded automatically
+# if you're not committing that directory.
+
+# Logs and runtime databases
+crash.log
+*.log
+experimental_search/nsindex/adaptive/visited.sqlite
+*.sqlite-journal
+
+# Assets that may be replaced by the user
+assets/wallpapers/*
+assets/wallpaper_videos/*
+!assets/wallpapers/.gitkeep
+!assets/wallpaper_videos/.gitkeep
+
+# OS files
+Desktop.ini
+*.lnk

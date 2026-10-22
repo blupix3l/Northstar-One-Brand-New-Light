@@ -1,0 +1,1443 @@
+{
+    "name": "Coding & Development",
+    "description": "Programming tools, frameworks, and resources",
+    "version": "2.0.0",
+    "sites": [
+        {
+            "title": "MDN Web Docs",
+            "url": "https://developer.mozilla.org",
+            "description": "Official documentation for web technologies (HTML, CSS, JS)",
+            "keywords": [
+                "javascript",
+                "js",
+                "html",
+                "css",
+                "frontend",
+                "webdev",
+                "documentation",
+                "api",
+                "web development",
+                "mdn",
+                "web api"
+            ],
+            "category": "coding",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "github",
+                "npm",
+                "react",
+                "typescript",
+                "vite"
+            ]
+        },
+        {
+            "title": "Stack Overflow",
+            "url": "https://stackoverflow.com",
+            "description": "Largest programming Q&A community",
+            "keywords": [
+                "stackoverflow",
+                "stack overflow",
+                "qa",
+                "questions",
+                "answers",
+                "coding",
+                "debugging",
+                "bugs"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "github",
+                "stackexchange",
+                "reddit"
+            ]
+        },
+        {
+            "title": "GitHub",
+            "url": "https://github.com",
+            "description": "Host open source code and collaborate with developers",
+            "keywords": [
+                "github",
+                "git",
+                "repo",
+                "repository",
+                "open source",
+                "code",
+                "version control",
+                "vcs"
+            ],
+            "category": "coding",
+            "priority": 98,
+            "official": true,
+            "related": [
+                "gitlab",
+                "git",
+                "npm",
+                "mdn",
+                "stackoverflow"
+            ]
+        },
+        {
+            "title": "GitLab",
+            "url": "https://gitlab.com",
+            "description": "DevOps platform with repo management and CI/CD",
+            "keywords": [
+                "gitlab",
+                "git",
+                "repo",
+                "ci/cd",
+                "devops",
+                "pipeline",
+                "version control"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "github",
+                "bitbucket",
+                "jenkins"
+            ]
+        },
+        {
+            "title": "Visual Studio Code",
+            "url": "https://code.visualstudio.com",
+            "description": "Lightweight code editor with extensions",
+            "keywords": [
+                "vscode",
+                "visual studio code",
+                "editor",
+                "code editor",
+                "ide",
+                "extensions"
+            ],
+            "category": "coding",
+            "priority": 97,
+            "official": true,
+            "related": [
+                "github",
+                "mdn",
+                "typescript"
+            ]
+        },
+        {
+            "title": "Node.js",
+            "url": "https://nodejs.org",
+            "description": "JavaScript runtime built on Chrome's V8 engine",
+            "keywords": [
+                "nodejs",
+                "node",
+                "javascript",
+                "js",
+                "server",
+                "runtime",
+                "backend"
+            ],
+            "category": "coding",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "npm",
+                "vite",
+                "express",
+                "typescript"
+            ]
+        },
+        {
+            "title": "npm",
+            "url": "https://www.npmjs.com",
+            "description": "JavaScript package registry",
+            "keywords": [
+                "npm",
+                "node package manager",
+                "packages",
+                "javascript",
+                "js",
+                "registry"
+            ],
+            "category": "coding",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "nodejs",
+                "vite",
+                "pnpm",
+                "yarn"
+            ]
+        },
+        {
+            "title": "React",
+            "url": "https://react.dev",
+            "description": "A library for building user interfaces",
+            "keywords": [
+                "react",
+                "reactjs",
+                "ui",
+                "frontend",
+                "javascript",
+                "jsx",
+                "components"
+            ],
+            "category": "coding",
+            "priority": 96,
+            "official": true,
+            "related": [
+                "nextjs",
+                "vite",
+                "typescript",
+                "mdn",
+                "github"
+            ]
+        },
+        {
+            "title": "Next.js",
+            "url": "https://nextjs.org",
+            "description": "The React framework for production",
+            "keywords": [
+                "nextjs",
+                "next js",
+                "react",
+                "framework",
+                "fullstack",
+                "ssr"
+            ],
+            "category": "coding",
+            "priority": 94,
+            "official": true,
+            "related": [
+                "react",
+                "vite",
+                "vercel",
+                "tailwindcss"
+            ]
+        },
+        {
+            "title": "TypeScript",
+            "url": "https://www.typescriptlang.org",
+            "description": "Type-safe JavaScript",
+            "keywords": [
+                "typescript",
+                "ts",
+                "javascript",
+                "types",
+                "static typing",
+                "superset"
+            ],
+            "category": "coding",
+            "priority": 95,
+            "official": true,
+            "related": [
+                "react",
+                "vite",
+                "nodejs",
+                "npm"
+            ]
+        },
+        {
+            "title": "Vite",
+            "url": "https://vitejs.dev",
+            "description": "Next generation frontend tooling",
+            "keywords": [
+                "vite",
+                "build tool",
+                "frontend",
+                "javascript",
+                "js",
+                "fast"
+            ],
+            "category": "coding",
+            "priority": 93,
+            "official": true,
+            "related": [
+                "react",
+                "vue",
+                "svelte",
+                "nodejs",
+                "npm"
+            ]
+        },
+        {
+            "title": "Vue.js",
+            "url": "https://vuejs.org",
+            "description": "Progressive JavaScript framework",
+            "keywords": [
+                "vue",
+                "vuejs",
+                "frontend",
+                "javascript",
+                "js",
+                "components"
+            ],
+            "category": "coding",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "vite",
+                "nuxtjs",
+                "react"
+            ]
+        },
+        {
+            "title": "Nuxt.js",
+            "url": "https://nuxt.com",
+            "description": "The intuitive Vue framework",
+            "keywords": [
+                "nuxtjs",
+                "nuxt",
+                "vue",
+                "framework",
+                "fullstack",
+                "ssr"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "vue",
+                "vite",
+                "tailwindcss"
+            ]
+        },
+        {
+            "title": "Tailwind CSS",
+            "url": "https://tailwindcss.com",
+            "description": "Utility-first CSS framework",
+            "keywords": [
+                "tailwind",
+                "tailwindcss",
+                "css",
+                "utility first",
+                "frontend"
+            ],
+            "category": "coding",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "react",
+                "nextjs",
+                "vite",
+                "css"
+            ]
+        },
+        {
+            "title": "Svelte",
+            "url": "https://svelte.dev",
+            "description": "Cybernetically enhanced web apps",
+            "keywords": [
+                "svelte",
+                "sveltekit",
+                "frontend",
+                "javascript",
+                "compiler"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "vite",
+                "react",
+                "vue"
+            ]
+        },
+        {
+            "title": "CodePen",
+            "url": "https://codepen.io",
+            "description": "Social development environment for front-end designers and developers",
+            "keywords": [
+                "codepen",
+                "frontend",
+                "playground",
+                "code",
+                "html",
+                "css",
+                "js"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "jsfiddle",
+                "codesandbox",
+                "github"
+            ]
+        },
+        {
+            "title": "JSFiddle",
+            "url": "https://jsfiddle.net",
+            "description": "Online web editor",
+            "keywords": [
+                "jsfiddle",
+                "fiddle",
+                "playground",
+                "code",
+                "html",
+                "css",
+                "js"
+            ],
+            "category": "coding",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "codepen",
+                "codesandbox"
+            ]
+        },
+        {
+            "title": "CodeSandbox",
+            "url": "https://codesandbox.io",
+            "description": "Online IDE for rapid web development",
+            "keywords": [
+                "codesandbox",
+                "ide",
+                "online",
+                "react",
+                "vite"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "codepen",
+                "jsfiddle",
+                "github"
+            ]
+        },
+        {
+            "title": "Stack Exchange",
+            "url": "https://stackexchange.com",
+            "description": "Q&A network covering various topics",
+            "keywords": [
+                "stackexchange",
+                "stack exchange",
+                "qa",
+                "questions",
+                "answers"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "stackoverflow",
+                "reddit"
+            ]
+        },
+        {
+            "title": "PyPI",
+            "url": "https://pypi.org",
+            "description": "Python Package Index",
+            "keywords": [
+                "pypi",
+                "python",
+                "packages",
+                "pip",
+                "registry"
+            ],
+            "category": "coding",
+            "priority": 94,
+            "official": true,
+            "related": [
+                "python",
+                "github",
+                "readthedocs"
+            ]
+        },
+        {
+            "title": "Python.org",
+            "url": "https://www.python.org",
+            "description": "Official Python website and docs",
+            "keywords": [
+                "python",
+                "py",
+                "programming language",
+                "docs",
+                "official"
+            ],
+            "category": "coding",
+            "priority": 96,
+            "official": true,
+            "related": [
+                "pypi",
+                "readthedocs",
+                "github"
+            ]
+        },
+        {
+            "title": "Read the Docs",
+            "url": "https://readthedocs.org",
+            "description": "Host documentation for your projects",
+            "keywords": [
+                "readthedocs",
+                "rtd",
+                "docs",
+                "documentation",
+                "sphinx"
+            ],
+            "category": "coding",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "pypi",
+                "github",
+                "python"
+            ]
+        },
+        {
+            "title": "Rust",
+            "url": "https://www.rust-lang.org",
+            "description": "A language empowering everyone to build reliable and efficient software",
+            "keywords": [
+                "rust",
+                "rustlang",
+                "programming language",
+                "systems",
+                "safe"
+            ],
+            "category": "coding",
+            "priority": 93,
+            "official": true,
+            "related": [
+                "crates.io",
+                "github",
+                "python"
+            ]
+        },
+        {
+            "title": "crates.io",
+            "url": "https://crates.io",
+            "description": "Rust package registry",
+            "keywords": [
+                "crates.io",
+                "crates",
+                "rust",
+                "packages",
+                "registry"
+            ],
+            "category": "coding",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "rust",
+                "github"
+            ]
+        },
+        {
+            "title": "Go (Golang)",
+            "url": "https://go.dev",
+            "description": "An open-source programming language supported by Google",
+            "keywords": [
+                "go",
+                "golang",
+                "programming language",
+                "google",
+                "systems"
+            ],
+            "category": "coding",
+            "priority": 92,
+            "official": true,
+            "related": [
+                "github",
+                "docker",
+                "kubernetes"
+            ]
+        },
+        {
+            "title": "Docker",
+            "url": "https://www.docker.com",
+            "description": "Accelerate how you build, share, and run modern applications",
+            "keywords": [
+                "docker",
+                "container",
+                "containerization",
+                "devops",
+                "kubernetes"
+            ],
+            "category": "coding",
+            "priority": 91,
+            "official": true,
+            "related": [
+                "kubernetes",
+                "github",
+                "devops"
+            ]
+        },
+        {
+            "title": "Kubernetes",
+            "url": "https://kubernetes.io",
+            "description": "Production-grade container orchestration",
+            "keywords": [
+                "kubernetes",
+                "k8s",
+                "container",
+                "orchestration",
+                "devops",
+                "cloud native"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "docker",
+                "github",
+                "devops"
+            ]
+        },
+        {
+            "title": "Jenkins",
+            "url": "https://www.jenkins.io",
+            "description": "The leading open source automation server",
+            "keywords": [
+                "jenkins",
+                "ci/cd",
+                "automation",
+                "devops",
+                "pipeline"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "github",
+                "gitlab",
+                "devops"
+            ]
+        },
+        {
+            "title": "Ansible",
+            "url": "https://www.ansible.com",
+            "description": "Configuration management and automation tool",
+            "keywords": [
+                "ansible",
+                "automation",
+                "devops",
+                "infrastructure",
+                "configuration management"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "kubernetes",
+                "docker",
+                "github"
+            ]
+        },
+        {
+            "title": "Terraform",
+            "url": "https://www.terraform.io",
+            "description": "Infrastructure as code tool",
+            "keywords": [
+                "terraform",
+                "infrastructure as code",
+                "iac",
+                "devops",
+                "cloud"
+            ],
+            "category": "coding",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "aws",
+                "azure",
+                "gcp",
+                "devops"
+            ]
+        },
+        {
+            "title": "GitHub Actions",
+            "url": "https://github.com/features/actions",
+            "description": "Automate your workflow from idea to production",
+            "keywords": [
+                "github actions",
+                "ci/cd",
+                "workflow",
+                "automation",
+                "github"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "github",
+                "gitlab",
+                "jenkins"
+            ]
+        },
+        {
+            "title": "ESLint",
+            "url": "https://eslint.org",
+            "description": "Pluggable linting utility for JavaScript and JSX",
+            "keywords": [
+                "eslint",
+                "lint",
+                "javascript",
+                "js",
+                "code quality"
+            ],
+            "category": "coding",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "prettier",
+                "npm",
+                "nodejs"
+            ]
+        },
+        {
+            "title": "Prettier",
+            "url": "https://prettier.io",
+            "description": "Opinionated code formatter",
+            "keywords": [
+                "prettier",
+                "code formatter",
+                "format",
+                "javascript",
+                "js",
+                "typescript"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "eslint",
+                "npm",
+                "vscode"
+            ]
+        },
+        {
+            "title": "pnpm",
+            "url": "https://pnpm.io",
+            "description": "Fast, disk space efficient package manager",
+            "keywords": [
+                "pnpm",
+                "package manager",
+                "npm",
+                "nodejs",
+                "javascript"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "npm",
+                "yarn",
+                "nodejs"
+            ]
+        },
+        {
+            "title": "Yarn",
+            "url": "https://yarnpkg.com",
+            "description": "Fast, reliable, and secure dependency management",
+            "keywords": [
+                "yarn",
+                "package manager",
+                "npm",
+                "nodejs",
+                "javascript"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "npm",
+                "pnpm",
+                "nodejs"
+            ]
+        },
+        {
+            "title": "JetBrains",
+            "url": "https://www.jetbrains.com",
+            "description": "Professional developer tools",
+            "keywords": [
+                "jetbrains",
+                "ide",
+                "intellij",
+                "pycharm",
+                "webstorm",
+                "goland"
+            ],
+            "category": "coding",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "vscode",
+                "github"
+            ]
+        },
+        {
+            "title": "IntelliJ IDEA",
+            "url": "https://www.jetbrains.com/idea/",
+            "description": "Leading Java and Kotlin IDE",
+            "keywords": [
+                "intellij",
+                "idea",
+                "java",
+                "kotlin",
+                "ide"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "jetbrains",
+                "pycharm"
+            ]
+        },
+        {
+            "title": "PyCharm",
+            "url": "https://www.jetbrains.com/pycharm/",
+            "description": "Python IDE for professional developers",
+            "keywords": [
+                "pycharm",
+                "python",
+                "py",
+                "ide"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "jetbrains",
+                "intellij",
+                "python"
+            ]
+        },
+        {
+            "title": "Neovim",
+            "url": "https://neovim.io",
+            "description": "Vim fork focused on extensibility and usability",
+            "keywords": [
+                "neovim",
+                "nvim",
+                "vim",
+                "editor",
+                "terminal"
+            ],
+            "category": "coding",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "vscode",
+                "vim",
+                "github"
+            ]
+        },
+        {
+            "title": "Vim",
+            "url": "https://www.vim.org",
+            "description": "Highly configurable text editor",
+            "keywords": [
+                "vim",
+                "vi",
+                "editor",
+                "terminal",
+                "text editor"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "neovim",
+                "vscode",
+                "github"
+            ]
+        },
+        {
+            "title": "Django",
+            "url": "https://www.djangoproject.com",
+            "description": "High-level Python Web framework",
+            "keywords": [
+                "django",
+                "python",
+                "py",
+                "web framework",
+                "backend"
+            ],
+            "category": "coding",
+            "priority": 91,
+            "official": true,
+            "related": [
+                "python",
+                "flask",
+                "pypi",
+                "github"
+            ]
+        },
+        {
+            "title": "Flask",
+            "url": "https://flask.palletsprojects.com",
+            "description": "A lightweight WSGI web application framework in Python",
+            "keywords": [
+                "flask",
+                "python",
+                "py",
+                "web framework",
+                "backend",
+                "wsgi"
+            ],
+            "category": "coding",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "django",
+                "python",
+                "pypi"
+            ]
+        },
+        {
+            "title": "FastAPI",
+            "url": "https://fastapi.tiangolo.com",
+            "description": "Modern, fast web framework for building APIs with Python",
+            "keywords": [
+                "fastapi",
+                "python",
+                "py",
+                "api",
+                "backend",
+                "framework"
+            ],
+            "category": "coding",
+            "priority": 90,
+            "official": true,
+            "related": [
+                "python",
+                "pydantic",
+                "pypi"
+            ]
+        },
+        {
+            "title": "Pydantic",
+            "url": "https://docs.pydantic.dev",
+            "description": "Data validation using Python type hints",
+            "keywords": [
+                "pydantic",
+                "python",
+                "data validation",
+                "types",
+                "fastapi"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "fastapi",
+                "python",
+                "pypi"
+            ]
+        },
+        {
+            "title": "Express.js",
+            "url": "https://expressjs.com",
+            "description": "Fast, unopinionated, minimalist web framework for Node.js",
+            "keywords": [
+                "express",
+                "expressjs",
+                "nodejs",
+                "backend",
+                "web framework"
+            ],
+            "category": "coding",
+            "priority": 89,
+            "official": true,
+            "related": [
+                "nodejs",
+                "npm",
+                "react"
+            ]
+        },
+        {
+            "title": "Astro",
+            "url": "https://astro.build",
+            "description": "Content-first web framework for the modern web",
+            "keywords": [
+                "astro",
+                "framework",
+                "frontend",
+                "static site",
+                "ssg"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "react",
+                "vue",
+                "svelte",
+                "vite"
+            ]
+        },
+        {
+            "title": "Vercel",
+            "url": "https://vercel.com",
+            "description": "Develop. Preview. Ship. For the best frontend teams",
+            "keywords": [
+                "vercel",
+                "deploy",
+                "hosting",
+                "nextjs",
+                "frontend"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "nextjs",
+                "github",
+                "netlify"
+            ]
+        },
+        {
+            "title": "Netlify",
+            "url": "https://www.netlify.com",
+            "description": "Modern static site hosting platform",
+            "keywords": [
+                "netlify",
+                "deploy",
+                "hosting",
+                "static site",
+                "jamstack"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "vercel",
+                "github",
+                "astro"
+            ]
+        },
+        {
+            "title": "Render",
+            "url": "https://render.com",
+            "description": "Cloud hosting for developers",
+            "keywords": [
+                "render",
+                "hosting",
+                "deploy",
+                "web app",
+                "paas"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "vercel",
+                "netlify",
+                "github"
+            ]
+        },
+        {
+            "title": "LeetCode",
+            "url": "https://leetcode.com",
+            "description": "Level up your coding skills and quickly land a job",
+            "keywords": [
+                "leetcode",
+                "coding interview",
+                "interview",
+                "algorithms",
+                "data structures"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "hackerrank",
+                "github",
+                "codewars"
+            ]
+        },
+        {
+            "title": "HackerRank",
+            "url": "https://www.hackerrank.com",
+            "description": "Coding practice and interview prep",
+            "keywords": [
+                "hackerrank",
+                "coding interview",
+                "interview",
+                "algorithms"
+            ],
+            "category": "coding",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "leetcode",
+                "codewars"
+            ]
+        },
+        {
+            "title": "Codewars",
+            "url": "https://www.codewars.com",
+            "description": "Achieve mastery through challenge",
+            "keywords": [
+                "codewars",
+                "coding challenge",
+                "kata",
+                "practice"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "leetcode",
+                "hackerrank"
+            ]
+        },
+        {
+            "title": "Dev.to",
+            "url": "https://dev.to",
+            "description": "Where programmers share ideas and help each other grow",
+            "keywords": [
+                "dev.to",
+                "dev",
+                "blog",
+                "programming",
+                "community"
+            ],
+            "category": "coding",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "stackoverflow",
+                "github",
+                "medium"
+            ]
+        },
+        {
+            "title": "Medium",
+            "url": "https://medium.com",
+            "description": "A place to read, write, and deepen your understanding",
+            "keywords": [
+                "medium",
+                "blog",
+                "articles",
+                "stories",
+                "writing"
+            ],
+            "category": "coding",
+            "priority": 82,
+            "official": true,
+            "related": [
+                "dev.to",
+                "substack"
+            ]
+        },
+        {
+            "title": "Hacker News",
+            "url": "https://news.ycombinator.com",
+            "description": "Social news for tech enthusiasts",
+            "keywords": [
+                "hacker news",
+                "ycombinator",
+                "hn",
+                "tech news",
+                "startups"
+            ],
+            "category": "coding",
+            "priority": 88,
+            "official": true,
+            "related": [
+                "reddit",
+                "github",
+                "dev.to"
+            ]
+        },
+        {
+            "title": "Reddit r/programming",
+            "url": "https://www.reddit.com/r/programming/",
+            "description": "Programming community on Reddit",
+            "keywords": [
+                "reddit",
+                "programming",
+                "r/programming",
+                "community"
+            ],
+            "category": "coding",
+            "priority": 83,
+            "official": true,
+            "related": [
+                "hacker news",
+                "dev.to",
+                "stackoverflow"
+            ]
+        },
+        {
+            "title": "Bitbucket",
+            "url": "https://bitbucket.org",
+            "description": "Git code hosting for professional teams",
+            "keywords": [
+                "bitbucket",
+                "git",
+                "repo",
+                "repository",
+                "atlassian"
+            ],
+            "category": "coding",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "github",
+                "gitlab",
+                "jira"
+            ]
+        },
+        {
+            "title": "Jira",
+            "url": "https://www.atlassian.com/software/jira",
+            "description": "Issue and project tracking",
+            "keywords": [
+                "jira",
+                "project management",
+                "atlassian",
+                "agile",
+                "scrum"
+            ],
+            "category": "coding",
+            "priority": 83,
+            "official": true,
+            "related": [
+                "bitbucket",
+                "github",
+                "confluence"
+            ]
+        },
+        {
+            "title": "Figma",
+            "url": "https://www.figma.com",
+            "description": "Collaborative interface design tool",
+            "keywords": [
+                "figma",
+                "design",
+                "ui",
+                "ux",
+                "prototyping"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "vscode",
+                "github",
+                "design"
+            ]
+        },
+        {
+            "title": "Postman",
+            "url": "https://www.postman.com",
+            "description": "API Platform for building and using APIs",
+            "keywords": [
+                "postman",
+                "api",
+                "testing",
+                "rest",
+                "http"
+            ],
+            "category": "coding",
+            "priority": 86,
+            "official": true,
+            "related": [
+                "curl",
+                "insomnia",
+                "github"
+            ]
+        },
+        {
+            "title": "Insomnia",
+            "url": "https://insomnia.rest",
+            "description": "APIs made easy for developers",
+            "keywords": [
+                "insomnia",
+                "api",
+                "testing",
+                "rest",
+                "http",
+                "postman alternative"
+            ],
+            "category": "coding",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "postman",
+                "curl",
+                "github"
+            ]
+        },
+        {
+            "title": "curl",
+            "url": "https://curl.se",
+            "description": "Command line tool and library for transferring data with URLs",
+            "keywords": [
+                "curl",
+                "command line",
+                "cli",
+                "http",
+                "download",
+                "url"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "wget",
+                "postman",
+                "insomnia"
+            ]
+        },
+        {
+            "title": "Wget",
+            "url": "https://www.gnu.org/software/wget/",
+            "description": "GNU Wget is a free software package for retrieving files",
+            "keywords": [
+                "wget",
+                "command line",
+                "cli",
+                "download",
+                "http"
+            ],
+            "category": "coding",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "curl",
+                "github"
+            ]
+        },
+        {
+            "title": "Jekyll",
+            "url": "https://jekyllrb.com",
+            "description": "Static site generator for blogs",
+            "keywords": [
+                "jekyll",
+                "static site",
+                "ssg",
+                "blog",
+                "ruby"
+            ],
+            "category": "coding",
+            "priority": 83,
+            "official": true,
+            "related": [
+                "github pages",
+                "hugo",
+                "gatsby"
+            ]
+        },
+        {
+            "title": "Hugo",
+            "url": "https://gohugo.io",
+            "description": "The world’s fastest framework for building websites",
+            "keywords": [
+                "hugo",
+                "static site",
+                "ssg",
+                "fast",
+                "go"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "astro",
+                "jekyll",
+                "gatsby"
+            ]
+        },
+        {
+            "title": "Gatsby",
+            "url": "https://www.gatsbyjs.com",
+            "description": "Fast static sites for React",
+            "keywords": [
+                "gatsby",
+                "static site",
+                "ssg",
+                "react",
+                "frontend"
+            ],
+            "category": "coding",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "react",
+                "astro",
+                "hugo"
+            ]
+        },
+        {
+            "title": "Homebrew",
+            "url": "https://brew.sh",
+            "description": "The missing package manager for macOS (or Linux)",
+            "keywords": [
+                "homebrew",
+                "brew",
+                "mac",
+                "macos",
+                "package manager"
+            ],
+            "category": "coding",
+            "priority": 87,
+            "official": true,
+            "related": [
+                "mac",
+                "linux",
+                "github"
+            ]
+        },
+        {
+            "title": "Chocolatey",
+            "url": "https://chocolatey.org",
+            "description": "Windows package manager",
+            "keywords": [
+                "chocolatey",
+                "choco",
+                "windows",
+                "package manager"
+            ],
+            "category": "coding",
+            "priority": 84,
+            "official": true,
+            "related": [
+                "winget",
+                "scoop",
+                "windows"
+            ]
+        },
+        {
+            "title": "Winget",
+            "url": "https://aka.ms/winget",
+            "description": "Windows Package Manager",
+            "keywords": [
+                "winget",
+                "windows package manager",
+                "windows",
+                "package manager"
+            ],
+            "category": "coding",
+            "priority": 85,
+            "official": true,
+            "related": [
+                "chocolatey",
+                "scoop",
+                "windows"
+            ]
+        },
+        {
+            "title": "Scoop",
+            "url": "https://scoop.sh",
+            "description": "A command-line installer for Windows",
+            "keywords": [
+                "scoop",
+                "windows",
+                "command line",
+                "package manager"
+            ],
+            "category": "coding",
+            "priority": 83,
+            "official": true,
+            "related": [
+                "winget",
+                "chocolatey",
+                "windows"
+            ]
+        }
+    ]
+}

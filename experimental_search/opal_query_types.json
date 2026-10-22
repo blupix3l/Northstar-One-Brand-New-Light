@@ -1,0 +1,135 @@
+{
+  "query_types": {
+    "website": {
+      "description": "Websites, apps, platforms",
+      "keywords": ["youtube", "spotify", "github", "gitlab", "discord", "slack", "twitter", "x.com", "instagram", "facebook", "reddit", "linkedin", "tiktok", "pinterest", "netflix", "hulu", "disney", "amazon", "ebay", "shopify", "wordpress", "wix", "squarespace", "notion", "obsidian", "teams", "zoom", "telegram", "signal", "twitch"],
+      "patterns": [
+        ".* (app|website|platform|site)$",
+        "^visit .*",
+        "^go to .*",
+        ".* (login|signup|register)$"
+      ],
+      "modifiers": [
+        "history of {query}",
+        "who founded {query}",
+        "{query} alternatives",
+        "{query} tutorial",
+        "{query} creator tools",
+        "{query} reviews"
+      ]
+    },
+    "product": {
+      "description": "Products, devices, gadgets",
+      "keywords": ["moto", "iphone", "android", "samsung", "pixel", "gpu", "cpu", "laptop", "desktop", "monitor", "headphones", "earbuds", "smartwatch", "tablet", "console", "playstation", "xbox", "nintendo", "camera", "dslr", "mirrorless", "phone", "tablet", "earphones", "mouse", "keyboard", "speaker", "tv", "smart tv", "gaming"],
+      "patterns": [
+        "^best .* (laptop|phone|headphones|camera|gpu|cpu|tv|speaker|mouse|keyboard|console)$",
+        "^best .* (gaming|budget|premium|flagship|ultra)$",
+        ".* (latest|newest|new|upcoming|2024|2025|2026|release)$",
+        ".* (specs|specifications|battery|camera|screen|price|review|reviews|compare|comparison|vs)$",
+        ".* (gaming|workstation|business|student)$",
+        ".* (series|pro|max|ultra|plus|lite|se)$",
+        ".* (\\d+)$"
+      ],
+      "modifiers": [
+        "{query} specs",
+        "{query} review",
+        "{query} battery",
+        "{query} camera",
+        "{query} gaming",
+        "{query} benchmarks",
+        "{query} alternatives",
+        "{query} price"
+      ]
+    },
+    "concept": {
+      "description": "Concepts, topics, ideas",
+      "keywords": ["programming", "artificial intelligence", "machine learning", "climate change", "politics", "economics", "philosophy", "history", "science", "biology", "chemistry", "physics", "mathematics", "literature", "sociology", "psychology", "engineering"],
+      "patterns": [
+        "^what is .*",
+        "^explain .*",
+        "^define .*",
+        "^concept of .*",
+        "^theory of .*"
+      ],
+      "modifiers": [
+        "history of {query}",
+        "{query} examples",
+        "{query} organizations",
+        "{query} modern applications",
+        "{query} educational resources"
+      ]
+    },
+    "tutorial": {
+      "description": "How-to, tutorials, guides",
+      "keywords": ["how to", "tutorial", "guide", "learn", "teach", "step by step", "steps to", "how do i", "how can i"],
+      "patterns": [
+        "^how to .*",
+        "^how do i .*",
+        "^learn .*",
+        "^tutorial .*",
+        "^guide .*",
+        "^steps to .*"
+      ],
+      "modifiers": [
+        "{query} step by step",
+        "{query} for beginners",
+        "{query} advanced",
+        "{query} examples",
+        "{query} best practices"
+      ]
+    },
+    "company": {
+      "description": "Companies, businesses, services",
+      "keywords": ["google", "microsoft", "apple", "tesla", "amazon", "meta", "nvidia", "amd", "intel", "spacex", "ibm", "oracle", "salesforce", "adobe"],
+      "patterns": [
+        ".* (company|corporation|inc|llc|ltd)$",
+        "^who owns .*",
+        "^who founded .*"
+      ],
+      "modifiers": [
+        "history of {query}",
+        "who founded {query}",
+        "{query} products",
+        "{query} news",
+        "{query} stock",
+        "{query} competitors"
+      ]
+    },
+    "entertainment": {
+      "description": "Entertainment, media, music, movies, games",
+      "keywords": ["movie", "film", "game", "video game", "gaming", "geofs", "roblox", "minecraft", "fortnite", "music", "band", "song", "album", "tv show", "series", "anime", "manga", "book", "watch", "play"],
+      "patterns": [
+        "^watch .* (movie|film|tv show|series|anime)$",
+        "^play .* (game|video game)$",
+        "^listen to .*",
+        ".* (season|episode|chapter)$"
+      ],
+      "modifiers": [
+        "{query} review",
+        "{query} release date",
+        "{query} cast",
+        "{query} soundtrack",
+        "{query} alternatives"
+      ]
+    },
+    "person": {
+      "description": "People, celebrities, public figures",
+      "keywords": ["president", "actor", "musician", "author", "scientist", "inventor", "celebrity", "ceo", "founder"],
+      "patterns": [
+        "^who is .*",
+        "^biography of .*",
+        "^net worth of .*"
+      ],
+      "modifiers": [
+        "biography of {query}",
+        "{query} early life",
+        "{query} achievements",
+        "{query} quotes",
+        "{query} net worth"
+      ]
+    }
+  },
+  "default_type": "concept",
+  "pattern_score": 5.0,
+  "keyword_score": 1.0
+}

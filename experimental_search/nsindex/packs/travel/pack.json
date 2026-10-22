@@ -1,0 +1,147 @@
+{
+    "name": "Travel & Navigation",
+    "description": "Travel planning, mapping, and navigation tools",
+    "version": "1.0.0",
+    "sites": [
+        {
+            "title": "Google Maps",
+            "url": "https://maps.google.com",
+            "description": "World maps, directions, and local business info",
+            "keywords": [
+                "map",
+                "directions",
+                "navigation"
+            ]
+        },
+        {
+            "title": "Rome2Rio",
+            "url": "https://www.rome2rio.com",
+            "description": "Multi-modal travel route planner",
+            "keywords": [
+                "travel",
+                "route",
+                "planning"
+            ]
+        },
+        {
+            "title": "Skyscanner",
+            "url": "https://www.skyscanner.com",
+            "description": "Compare flight, hotel, and car rental prices",
+            "keywords": [
+                "flights",
+                "hotels",
+                "compare"
+            ]
+        },
+        {
+            "title": "Booking.com",
+            "url": "https://www.booking.com",
+            "description": "Book hotels, apartments, and more",
+            "keywords": [
+                "hotel",
+                "booking",
+                "accommodation"
+            ]
+        },
+        {
+            "title": "Airbnb",
+            "url": "https://www.airbnb.com",
+            "description": "Rent unique places to stay from local hosts",
+            "keywords": [
+                "rent",
+                "stay",
+                "host"
+            ]
+        },
+        {
+            "title": "TripAdvisor",
+            "url": "https://www.tripadvisor.com",
+            "description": "Travel reviews and recommendations",
+            "keywords": [
+                "reviews",
+                "travel",
+                "recommendations"
+            ]
+        },
+        {
+            "title": "Google Flights",
+            "url": "https://www.google.com/flights",
+            "description": "Search and book flights",
+            "keywords": [
+                "flights",
+                "book",
+                "search"
+            ]
+        },
+        {
+            "title": "OpenStreetMap",
+            "url": "https://www.openstreetmap.org",
+            "description": "Free, open-source world map",
+            "keywords": [
+                "map",
+                "open",
+                "free"
+            ]
+        },
+        {
+            "title": "Waze",
+            "url": "https://www.waze.com",
+            "description": "Community-driven navigation and traffic updates",
+            "keywords": [
+                "traffic",
+                "navigation",
+                "community"
+            ]
+        },
+        {
+            "title": "Lonely Planet",
+            "url": "https://www.lonelyplanet.com",
+            "description": "Travel guides and destination info",
+            "keywords": [
+                "guide",
+                "destination",
+                "travel"
+            ]
+        },
+        {
+            "title": "Kayak",
+            "url": "https://www.kayak.com",
+            "description": "Travel search engine for flights, hotels, cars",
+            "keywords": [
+                "search",
+                "travel",
+                "flights"
+            ]
+        },
+        {
+            "title": "Expedia",
+            "url": "https://www.expedia.com",
+            "description": "Book flights, hotels, cars, and packages",
+            "keywords": [
+                "booking",
+                "flights",
+                "hotels"
+            ]
+        },
+        {
+            "title": "Hostelworld",
+            "url": "https://www.hostelworld.com",
+            "description": "Book hostels worldwide",
+            "keywords": [
+                "hostel",
+                "budget",
+                "travel"
+            ]
+        },
+        {
+            "title": "SeatGuru",
+            "url": "https://www.seatguru.com",
+            "description": "Airplane seat maps and reviews",
+            "keywords": [
+                "seats",
+                "airplane",
+                "reviews"
+            ]
+        }
+    ]
+}
