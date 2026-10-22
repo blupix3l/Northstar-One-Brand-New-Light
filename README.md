@@ -31,7 +31,9 @@ page, a sidebar-based tab list, and a built-in AI assistant.
   the OS keyring.
 - **Password book** — master-password gate, search, lock/unlock and autofill,
   with entries stored in the OS keyring. Open it from the 🔑 button in the
-  sidebar, or with `Ctrl+Shift+K`.
+  sidebar, or with `Ctrl+Shift+K`. It is one of the panels that **stays open
+  when you click elsewhere** on the page — close it with the 🔑 sidebar
+  button or the 🔒 lock button inside the panel.
 - **Search engine selector** — Google, DuckDuckGo, Bing, Brave or Ecosia.
   The default is **Google**.
 - **Settings page** (`northstar://settings`) — search engine, toolbar mode

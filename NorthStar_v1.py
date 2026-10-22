@@ -8172,6 +8172,12 @@ class NorthStar(QMainWindow):
     browse_addons_requested = pyqtSignal()          # browser thread → GUI thread
     extensions_action_requested = pyqtSignal(str, str, object)  # action, id, value
 
+    # Panels listed here are exempt from "click anywhere to dismiss".
+    # The Password Book holds a search field and an entry list, so it
+    # stays open when you click elsewhere on the page. Close it with the
+    # 🔑 sidebar button (or the 🔒 lock button inside the panel).
+    _STICKY_PANELS = ("password_book",)
+
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Northstar One: Brand New Light"); self.resize(1280, 820)
@@ -8457,6 +8463,7 @@ class NorthStar(QMainWindow):
         if not visible_panels:
             return
 
+        sticky = {getattr(self, name, None) for name in self._STICKY_PANELS}
         clicked_panel = next(
             (panel for panel in visible_panels
              if target is not None
@@ -8465,6 +8472,8 @@ class NorthStar(QMainWindow):
         )
         for panel in visible_panels:
             if panel is clicked_panel:
+                continue
+            if panel in sticky:
                 continue
             if panel is self.find_bar:
                 panel.close_bar()
