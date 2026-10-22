@@ -1,64 +1,173 @@
-# NorthStar Browser
+<p align="center">
+  <img src="NS1.png" width="180" alt="Northstar One logo">
+</p>
 
-A privacy-focused, feature-rich web browser built with PyQt6 and QWebEngine.
+# Northstar One: Brand New Light
+
+A PyQt6 / QWebEngine browser with a glassmorphic dark UI, a custom new tab
+page, a sidebar-based tab list, and a built-in AI assistant.
+
+> **Status: work in progress.** This README describes what the code
+> actually does today. Sections marked *experimental* are not wired into the
+> browser UI yet, and they are called out rather than presented as features.
+
+---
 
 ## Features
 
-- **Tabbed browsing** with visual tab cards and keyboard shortcuts
-- **DuckDuckGo-powered search** with optional Brave Search API
-- **Bookmark manager** with import from Chrome, Edge, Firefox, Brave, Vivaldi, Opera
-- **Visual new tab page** with wallpaper backgrounds and quick-dial bookmarks
-- **Sidebar AI assistant** (Leo) with local (Ollama) and remote (OpenAI, Groq) LLM support
-- **Password book** with OS keyring integration
-- **Settings UI** for theme, toolbar mode, search provider, and API keys
-- **Content enrichment** via Firecrawl for rich page previews
-- **NSIndex** — built-in search indexing engine with crawling and ranking
+### Working
 
-Experimental search/discovery components are grouped in `experimental_search/`.
-The browser continues to use these modules for its existing Opal search and
-discovery views; the folder is for organization and does not disable them.
+- **Custom new tab page** with quick-dial bookmark tiles, a wallpaper
+  background and a rotating wallpaper carousel.
+- **Sidebar tab list** — each tab is rendered as a `TabCard` widget in the
+  left sidebar. The native Qt tab bar is hidden, so this list *is* the tab
+  strip. There is no tab-overview grid.
+- **Bookmarks** — bookmarks bar, new-tab tile editor, and one-shot import
+  from **Chrome, Edge, Firefox, Brave, Vivaldi and Opera** (including
+  Firefox's `places.sqlite`). There is no standalone bookmark-manager
+  window; management happens in the bookmarks bar and the new-tab tiles.
+- **Leo AI assistant** — a docked side panel that talks to **Ollama** (local,
+  `http://localhost:11434`), **OpenAI**, or **Groq**. Keys are saved through
+  the OS keyring.
+- **Password book** — master-password gate, search, lock/unlock and autofill,
+  with entries stored in the OS keyring.
+- **Search engine selector** — Google, DuckDuckGo, Bing, Brave or Ecosia.
+  The default is **Google**.
+- **Settings page** (`northstar://settings`) — search engine, toolbar mode
+  (hover / always / address), OLED mode, background style, wallpaper mode,
+  colours and typography.
+- **History, downloads, find-in-page, zoom, fullscreen, picture-in-picture**,
+  a command palette, a notes page and an extensions page.
+
+### Not finished / misleading if you read the code at face value
+
+- **No light theme.** Light mode was removed from the codebase; the app is
+  dark-only with an optional OLED palette.
+- **No API-key section in the settings page.** Leo's keys live in a separate
+  *Leo AI Settings* dialog.
+- **Firecrawl enrichment produces data that is never shown.** The pipeline
+  runs and builds a `PageProfile` (title, description, markdown, hero image),
+  but the completion callback only writes a log line — there is no preview UI
+  wired up yet.
+- **`experimental_search/` is mostly dormant.** It contains a large
+  Opal-discovery / NSIndex subsystem that the browser does not currently
+  reach in normal use. The one part that *is* live is omnibox URL detection.
+  Treat the rest as a prototype, not a feature.
+- **NSIndex's crawler, indexer, BM25 and storage layers are never
+  instantiated** by the browser, and `index_visited_page()` is never called,
+  so the adaptive index stays empty.
+- **Wallpapers are not shipped in this repository.** `assets/wallpapers/` and
+  `assets/wallpaper_videos/` are gitignored (only `.gitkeep` is tracked), so
+  a fresh clone falls back to the built-in constellation gradient. Drop your
+  own images in those folders to use the wallpaper features.
+
+---
 
 ## Requirements
 
-- Python 3.10+
-- PyQt6 (tested with 6.8+)
-- PyQt6-WebEngine
-- requests
-- keyring (optional, for password book)
-- Firecrawl SDK (optional, for content enrichment)
+- Python 3.10+ (developed against 3.14)
+- PyQt6 6.8+ and PyQt6-WebEngine 6.8+
+
+Install everything with either of these:
+
+```bash
+pip install -r requirements.txt
+# or
+python dependency_manager.py
+```
+
+| Package | Why |
+|---|---|
+| `PyQt6`, `PyQt6-WebEngine` | UI and rendering engine |
+| `requests` | HTTP calls |
+| `Pillow` | favicon / image handling |
+| `keyring` | **Optional** — Password Book and Leo API keys. Without it, writes are silent no-ops and nothing persists between runs. |
+| `duckduckgo_search` | **Optional** — experimental search providers |
+| `firecrawl` | **Optional** — content enrichment |
+
+> The Password Book stores entries in the OS keyring *unencrypted*; the
+> master password is a UI gate, not a vault encryption key.
+
+---
 
 ## Quick Start
 
 ```bash
-# Install dependencies
-python dependency_manager.py
-
-# Launch
+pip install -r requirements.txt
 python NorthStar_v1.py
 ```
 
+Settings, bookmarks, history and the password book are stored in
+`%APPDATA%\NorthStar` on Windows.
+
+---
+
 ## Environment Variables
+
+`.env` is read by `experimental_search/northstar_search.py` when that module
+is imported. Copy `.env.example` to `.env` to configure it.
 
 | Variable | Description |
 |----------|-------------|
-| `NS_DEBUG=1` | Enable debug logging |
-| `NS_SEARCH_PROVIDER` | `duckduckgo` (default) or `brave` |
-| `FIRECRAWL_API_KEY` | Firecrawl API key for content enrichment |
-| `SERPAPI_API_KEY` | SerpAPI key (alternative search) |
+| `FIRECRAWL_API_KEY` | Firecrawl key for the content-enrichment provider |
+| `BRAVE_SEARCH_API_KEY` | Brave Search key for the experimental Brave provider (no UI field) |
+| `SERPAPI_API_KEY` | SerpAPI key for the experimental SerpAPI provider |
+| `NS_DEBUG` | Debug logging. **Must be exported in your shell** (`set NS_DEBUG=1`) — the browser reads it at startup, before `.env` is loaded. |
 
-Copy `.env.example` to `.env` to configure.
+---
 
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl+T` | New tab |
+| `Ctrl+Shift+T` | Reopen closed tab |
 | `Ctrl+W` | Close tab |
-| `Ctrl+Tab` | Next tab |
-| `Ctrl+Shift+Tab` | Previous tab |
-| `Ctrl+L` / `Alt+D` | Focus address bar |
-| `Ctrl+B` | Toggle bookmarks |
+| `Ctrl+R` / `Ctrl+Shift+R` | Reload / hard reload |
+| `Ctrl+L` | Focus address bar |
+| `Alt+Left` / `Alt+Right` | Back / forward |
+| `Ctrl+D` | Toggle bookmark |
+| `Ctrl+Shift+A` | Toggle Leo AI panel |
+| `Ctrl+Shift+K` | Toggle password book |
+| `Ctrl+H` | Toggle history |
+| `Ctrl+J` | Toggle downloads |
+| `Ctrl+F` | Find in page |
+| `Ctrl+Shift+S` | StarShare |
+| `Ctrl+,` | Settings |
+| `Ctrl+P` | Command palette |
+| `Ctrl+Shift+P` | Picture-in-picture |
+| `Ctrl+`+`/`Ctrl+=` | Zoom in |
+| `Ctrl+-` | Zoom out |
+| `Ctrl+0` | Reset zoom |
+| `F11` | Fullscreen |
+| `Escape` | Dismiss overlay |
+
+---
+
+## Project Layout
+
+```
+NorthStar_v1.py          Main application (UI, tabs, settings, new tab page)
+oled_theme.py            OLED palette and theme tokens
+fernway_manager.py       Persistent settings store
+ai_manager.py            Ollama / OpenAI / Groq providers
+bg_render.py             Background renderer
+extensions.py            Extension manager
+content/                 Content-enrichment pipeline (Firecrawl provider)
+experimental_search/     Experimental Opal discovery + NSIndex (mostly dormant)
+tests/                   Unit tests
+```
+
+---
+
+## Tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+---
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).

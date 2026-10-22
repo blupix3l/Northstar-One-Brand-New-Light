@@ -6429,7 +6429,7 @@ def _build_newtab_html(bookmarks: list, dark_mode: bool = False, search_engine_u
 <head>
 <meta charset="utf-8">
 <meta name="color-scheme" content="{scheme}">
-<title>New Tab</title>
+<title>Northstar One: Brand New Light</title>
 <style>
 /* ── Reset ── */
     *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
@@ -8174,7 +8174,7 @@ class NorthStar(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("NorthStar"); self.resize(1280, 820)
+        self.setWindowTitle("Northstar One: Brand New Light"); self.resize(1280, 820)
         self.setWindowFlags(Qt.WindowType.FramelessWindowHint | Qt.WindowType.Window)
         self.setAttribute(Qt.WidgetAttribute.WA_OpaquePaintEvent)
         self.setAttribute(Qt.WidgetAttribute.WA_NoSystemBackground)

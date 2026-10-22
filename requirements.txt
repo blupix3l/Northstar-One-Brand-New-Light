@@ -1,0 +1,14 @@
+# Core requirements
+PyQt6>=6.8
+PyQt6-WebEngine>=6.8
+requests>=2.31
+Pillow>=10.0
+
+# Optional but recommended.
+# keyring    -> required for the Password Book and for storing Leo AI API keys.
+#                Without it nothing is persisted (writes are silent no-ops).
+# duckduckgo_search -> used by the experimental search providers.
+# firecrawl  -> used by the content-enrichment provider.
+keyring>=24.0
+duckduckgo_search>=8.0
+firecrawl>=4.0

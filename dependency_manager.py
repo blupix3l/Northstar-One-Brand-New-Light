@@ -10,6 +10,8 @@ LIBRARY_MAPPING = {
     "requests": "requests",
     "keyring": "keyring",
     "PIL": "Pillow",
+    "duckduckgo_search": "duckduckgo_search",
+    "firecrawl": "firecrawl",
 }
 
 def is_library_installed(lib_name):
